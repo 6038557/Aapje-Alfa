@@ -56,12 +56,7 @@ export default function App() {
               <View style={styles.block}>
                 <Text style={styles.date}>{item.date}</Text>
                 {Object.entries(item.commands).map(([CommandIndex, count]) => (
-                  <View key={CommandIndex} style={{flexDirection: 'row',
-                                                       alignItems: 'center',
-                                                       marginVertical: 1,
-                                                       borderBottomWidth: 1,
-                                                       borderColor: '#193d0e',
-                                                       paddingVertical: 5, }}>
+                  <View key={CommandIndex} style={styles.statBox}>
                     <Text style={styles.stats}>
                       {Commands[CommandIndex] || CommandIndex}: {count} keer
                     </Text>
