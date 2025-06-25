@@ -84,7 +84,7 @@ const styles = StyleSheet.create({
   closeButton: { padding: 8, marginRight: 20, },
   closeText: { fontSize: 26, fontWeight: 'bold', color: '#f2c94c', },
   headerTitle: { fontSize: 22, fontWeight: 'bold', color: '#d0f0c0', },
-  date: {color: '#fff', fontWeight: 'bold', marginBottom: 5 },
+  date: {color: '#fff', fontWeight: 'bold', marginBottom: 5, },
   statBox: {flexDirection: 'row', alignItems: 'center', marginVertical: 1, borderBottomWidth: 1, borderColor: '#193d0e', paddingVertical: 5,},
   stats: {flex: 1, color: '#fff'},
   info: { color: '#f2c94c', fontWeight: 'bold', fontSize: 16,},
